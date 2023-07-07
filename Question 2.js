@@ -109,11 +109,6 @@ const runTest = () => {
 //function should return a whole number
 const getNumberOfCopies = (ShelfOfBooks, targetBook) => {
   //write your code here
-  let res = 0;
-  for (let i = 0; i < ShelfOfBooks.length; i++) {
-    if (targetBook == ShelfOfBooks[i].bookName) res++;
-  }
-  return res;
 };
 
 runTest();
